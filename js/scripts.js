@@ -6,8 +6,7 @@ $(document).ready(function() {
     const phoneNumberInput = $("#phoneNumber").val();
     const streetAddressInput = $("#streetAddress").val();
 
-    $("ul#contactsList").append("<li><span class='contactNameInput'></span></li>");
-    $('.contactNameInput').text(contactNameInput);
+    $("ul#contactsList").append(`<li>${contactNameInput}</li>`);
   })
 
 })
