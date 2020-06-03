@@ -5,4 +5,13 @@
 .delete {
   color: red;
   display: None;
+  text-decoration: underline;
+}
+
+.delete:hover {
+  color: darkred;
+}
+
+.contacts {
+  margin-top: 10px;
 }

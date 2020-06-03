@@ -6,7 +6,7 @@ $(document).ready(function() {
     const phoneNumberInput = $("#phoneNumber").val();
     const streetAddressInput = $("#streetAddress").val();
 
-    $("ul#contactsList").append(`<li class="contactHead">${contactNameInput}</li>`);
+    $("ul#contactsList").append(`<li class="contactHead well"><strong>${contactNameInput}</strong></li>`);
     $("li.contactHead:last-of-type").append(`<p class="contactInfo">Email Address: ${emailAddressInput}<br>Phone Number: ${phoneNumberInput}<br>Street Address: ${streetAddressInput}<br></p>`);
     $("li.contactHead:last-of-type").click(function() {
       $(this).children("p").toggle();
