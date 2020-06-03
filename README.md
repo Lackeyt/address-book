@@ -11,6 +11,7 @@ _This applications serves as an address book, which saves a list of contacts, wh
 ## Setup/Installation Requirements
 
 * _Download the repo and open index.html in the browser of your choice_
+* _Also available on https://sudolphus.github.io/address-book/_
 
 ## Known Bugs
 
