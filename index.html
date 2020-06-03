@@ -10,27 +10,29 @@
   <body>
     <div class="container">
       <h1>Welcome to the Address Book!</h1>
-
-      <form id="addressEntry">
-        <div class='form-group'>
-          <label for='contactName'>Enter Contact's Name:</label>
-          <input id='contactName' name='contactName' type='text' class='form-control'>
+      <div class="row">
+        <div class="col-md-12">
+          <form id="addressEntry">
+            <div class='form-group'>
+              <label for='contactName'>Enter Contact's Name:</label>
+              <input id='contactName' name='contactName' type='text' class='form-control'>
+            </div>
+            <div class='form-group'>
+              <label for='emailAddress'>Enter Contact's Email:</label>
+              <input id='emailAddress' name='emailAddress' type='email' class='form-control'>
+            </div>
+            <div class='form-group'>
+              <label for='phoneNumber'>Enter Contact Phone Number:</label>
+              <input id='phoneNumber' name='phoneNumber' type='text' class='form-control'>
+            </div>
+            <div class='form-group'>
+              <label for='streetAddress'>Enter Contact's Street Address:</label>
+              <input id='streetAddress' name='streetAddress' type='text' class='form-control'>
+            </div>
+            <button class="btn btn-primary" type="submit" id="addContact">Add Contact!</button>
+          </form>
         </div>
-        <div class='form-group'>
-          <label for='emailAddress'>Enter Contact's Email:</label>
-          <input id='emailAddress' name='emailAddress' type='email' class='form-control'>
-        </div>
-        <div class='form-group'>
-          <label for='phoneNumber'>Enter Contact Phone Number:</label>
-          <input id='phoneNumber' name='phoneNumber' type='text' class='form-control'>
-        </div>
-        <div class='form-group'>
-          <label for='streetAddress'>Enter Contact's Street Address:</label>
-          <input id='streetAddress' name='streetAddress' type='text' class='form-control'>
-        </div>
-        <button class="btn btn-primary" type="submit" id="addContact">Add Contact!</button>
-      </form>
-
+      </div>
       <div class="contacts">
         <ul id="contactsList">
 
